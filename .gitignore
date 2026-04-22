@@ -1,3 +1,11 @@
+# Ignore data and results (highly recommended for research)
+data/
+results/
+*.pdb
+*.fasta
+*.sh
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
