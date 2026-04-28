@@ -1,0 +1,19 @@
+name: protein-ensemble
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch
+  - cudatoolkit
+  - scikit-learn  # For DBSCAN clustering
+  - biopython     # For PDB/FASTA handling
+  - pandas
+  - matplotlib    # For visualizing ensembles
+  - tqdm
+  - pip:
+    - colabfold[alphafold]
+    - dm-haiku
+    - jax[cuda11_pip] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
