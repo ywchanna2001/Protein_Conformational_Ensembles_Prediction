@@ -2,7 +2,6 @@
 AlphaFold Architecture-Based Protein Conformational Ensembles Prediction
 
 
-![header](imgs/header.jpg)
 
 # AlphaFold
 
