@@ -4,6 +4,7 @@ results/
 *.pdb
 *.fasta
 *.sh
+Demonstration/demo_bundle/
 
 
 # Byte-compiled / optimized / DLL files
