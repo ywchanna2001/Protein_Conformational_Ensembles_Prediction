@@ -1,0 +1,5 @@
+streamlit>=1.30
+py3Dmol>=2.0
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
