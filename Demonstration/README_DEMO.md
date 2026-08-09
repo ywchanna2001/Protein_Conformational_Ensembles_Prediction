@@ -1,14 +1,13 @@
 # Conformational Ensemble Explorer — setup guide
 
-A localhost demonstration UI for your OC23 conformational-ensemble results.
+A localhost demonstration UI for OC23 conformational-ensemble results.
 All computation is done ahead of time; the app only reads pre-computed files,
-so nothing can fail during your presentation.
 
 ---
 
 ## Step 1 — Build the demo bundle (in Google Colab)
 
-Do this **in Colab**, where your data and the compiled `TMalign` binary already are.
+Do this **in Colab**, where data and the compiled `TMalign` binary already are.
 
 1. Open the notebook where you compiled TM-align (`./TMalign` must exist in the
    working directory). If starting fresh, re-run that cell first.
@@ -19,7 +18,7 @@ Do this **in Colab**, where your data and the compiled `TMalign` binary already 
 
    ```python
    EVAL_DIR   = '/content/drive/MyDrive/Research/evaluation_OC23'
-   PRED_ROOT  = '/content/drive/MyDrive/Research/dropout_predictions/OC23'
+   PRED_ROOT  = '/content/drive/MyDrive/Research/final_predictions/OC23'
    OC23_DIR   = '/content/drive/MyDrive/Research/OC23_references/input_datasets/oc23'
    TMALIGN    = './TMalign'
    ```
@@ -97,11 +96,11 @@ experimental states, plus the ensemble file name and nearest reference state.
 
 **Three rotating 3D viewers** —
 
-| View | Shows |
-|---|---|
-| Predicted conformation | your generated structure |
+| View                   | Shows                         |
+| ---------------------- | ----------------------------- |
+| Predicted conformation | your generated structure      |
 | Experimental reference | the crystal/cryo-EM structure |
-| Superimposed overlay | both together, in one frame |
+| Superimposed overlay   | both together, in one frame   |
 
 The overlay is the most persuasive view: predicted (blue) and experimental
 (grey/amber) rotating in register makes the agreement immediately visible.
@@ -123,7 +122,7 @@ of 60.
   "best to state 2", and show the overlay — the structures visibly coincide.
 - Then switch the conformation dropdown to "best to state 1" and let the
   audience watch the structure change shape. That single interaction
-  demonstrates *conformational ensemble prediction* better than any slide.
+  demonstrates _conformational ensemble prediction_ better than any slide.
 - Use the coverage plot to explain the success criterion: a target counts only
   if models reach the top-left **and** bottom-right corners.
 - Switch colouring to **pLDDT confidence** to show that alternate-state models

@@ -18,7 +18,7 @@ import py3Dmol
 import streamlit as st
 import streamlit.components.v1 as components
 
-BUNDLE = Path(__file__).parent / 'demo_bundle'
+BUNDLE = Path(__file__).parent / 'demo_bundle_100_models_per_target'
 
 st.set_page_config(page_title='Conformational Ensemble Explorer',
                    layout='wide', initial_sidebar_state='expanded')
