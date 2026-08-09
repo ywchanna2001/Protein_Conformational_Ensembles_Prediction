@@ -5,7 +5,7 @@ results/
 *.fasta
 *.sh
 Demonstration/demo_bundle/
-Demonstration/demo_bundle/demo_bundle_100_models_per_target/
+Demonstration/demo_bundle_100_models_per_target/
 
 
 # Byte-compiled / optimized / DLL files
