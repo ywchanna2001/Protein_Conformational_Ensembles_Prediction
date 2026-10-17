@@ -2,12 +2,12 @@
 
 **AlphaFold-architecture-based prediction of multiple protein conformational states under constrained computational resources.**
 
-Final-year research project. AlphaFold2 predicts a single static structure per
+**Final-year research project. AlphaFold2 predicts a single static structure per
 sequence, yet many proteins carry out their function by moving between distinct
 conformational states. This repository implements a pipeline that induces
 conformational diversity in AlphaFold2 **without retraining it**, by partitioning
 the multiple sequence alignment (MSA) into evolutionarily distinct sub-alignments
-and running stochastic inference over each.
+and running stochastic inference over each.**
 
 The work is inspired by, and benchmarked against, AlphaFold2, AFsample,
 AFsample2 and AF-Cluster.
